@@ -1,0 +1,28 @@
+From 167d030f19c6b10a1318367f462bf9f96f61d24e Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Carlos=20Ag=C3=BCero?= <cen.aguero@gmail.com>
+Date: Wed, 19 Oct 2016 15:57:50 -0700
+Subject: [PATCH] Add java as a dependency
+
+---
+ package.xml | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/package.xml b/package.xml
+index b039473..43aa707 100644
+--- a/package.xml
++++ b/package.xml
+@@ -18,9 +18,11 @@
+   <build_depend>controller_interface</build_depend>
+   <build_depend>hardware_interface</build_depend>
+   <build_depend>effort_controllers</build_depend>
++  <build_depend>java</build_depend>
+   <run_depend>controller_interface</run_depend>
+   <run_depend>hardware_interface</run_depend>
+   <run_depend>effort_controllers</run_depend>
++  <run_depend>java</run_depend>
+ 
+   <export>
+     <controller_interface plugin ="${prefix}/whole_robot_controller_plugin.xml"/>
+-- 
+2.7.4
+

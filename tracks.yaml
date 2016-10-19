@@ -22,4 +22,4 @@ tracks:
     ros_distro: indigo
     vcs_type: git
     vcs_uri: https://github.com/ihmcrobotics/ihmc-ros-control.git
-    version: :{ask}
+    version: :{auto}
